@@ -21,7 +21,7 @@ public class SHA1Hash {
 	}
 	
 	public static void main(String[] args) throws Exception {
-		String passwd = "qwer@123@asdf"; 
+		String passwd = "password_here"; 
 		System.out.println("THE SHA HASH : " + getSHAString(passwd));
 	}
 }
